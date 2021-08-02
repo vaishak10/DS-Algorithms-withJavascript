@@ -23,4 +23,4 @@ Selection sort is based on Brute force method.
 
 ## For Visualizations on how selection sort works
 - [algorithm-visualizer](https://algorithm-visualizer.org/brute-force/selection-sort)
-- [visualgo](https://visualgo.net/en/sorting)
+- [visualgo](https://visualgo.net/en/sorting?slide=8)
