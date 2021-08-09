@@ -11,11 +11,11 @@ Have also come up with a new Motto and trying to live by it - `LEARN AND HELP OT
 ## Algorithms 
 
 ### Search
-1. [Linear Search](/workspace/DS-Algorithms-withJavascript/Search/LinearSearch)
-2. [Binary Search](/workspace/DS-Algorithms-withJavascript/Search/BinarySearch)
+1. [Linear Search](/DS-Algorithms-withJavascript/Search/LinearSearch)
+2. [Binary Search](/DS-Algorithms-withJavascript/Search/BinarySearch)
 
 ### Sorting
-1. [Insertion Sort](/workspace/DS-Algorithms-withJavascript/Sorting/InsertionSort)
-2. [Selection Sort](/workspace/DS-Algorithms-withJavascript/Sorting/SelectionSort)
-3. [Bubble Sort](/workspace/DS-Algorithms-withJavascript/Sorting/BubbleSort)
-4. [Quick Sort](/workspace/DS-Algorithms-withJavascript/Sorting/QuickSort)
+1. [Insertion Sort](/DS-Algorithms-withJavascript/Sorting/InsertionSort)
+2. [Selection Sort](/DS-Algorithms-withJavascript/Sorting/SelectionSort)
+3. [Bubble Sort](/DS-Algorithms-withJavascript/Sorting/BubbleSort)
+4. [Quick Sort](/DS-Algorithms-withJavascript/Sorting/QuickSort)
