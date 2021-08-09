@@ -51,4 +51,4 @@ Note: The horizontal lines are pivot values.
 ## Visualizations of Quicksort algorithm.
 
 - [Algorithm-visualizer](https://algorithm-visualizer.org/divide-and-conquer/quicksort)
-- [Visualgo] (https://visualgo.net/en/sorting?slide=12)
+- [Visualgo](https://visualgo.net/en/sorting?slide=12)
