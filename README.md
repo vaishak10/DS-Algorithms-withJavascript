@@ -8,6 +8,8 @@ And also , it's a public repo so please do go through this repo for your preps b
 
 Have also come up with a new Motto and trying to live by it - `LEARN AND HELP OTHERS LEARN`.
 
+***This is a Work in progress repo. Will be adding new solutions frequently.***
+
 ## Algorithms 
 
 ### Search
