@@ -1,4 +1,4 @@
-# Factorial 
+# Factorial of a number
 
 Factorial, in mathematics, the product of all positive integers less than or equal to a given positive integer and denoted by that integer and an exclamation point. Thus, factorial seven is written **7!**
 Thus, 7! =  1 × 2 × 3 × 4 × 5 × 6 × 7 = 5040. 
