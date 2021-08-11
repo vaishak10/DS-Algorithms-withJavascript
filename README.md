@@ -21,3 +21,6 @@ Have also come up with a new Motto and trying to live by it - `LEARN AND HELP OT
 2. [Selection Sort](Sorting/SelectionSort)
 3. [Bubble Sort](Sorting/BubbleSort)
 4. [Quick Sort](Sorting/QuickSort)
+
+### Recursion
+1. [Factorial](Recursion/Factorial)
