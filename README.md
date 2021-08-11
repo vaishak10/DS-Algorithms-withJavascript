@@ -25,3 +25,4 @@ Have also come up with a new Motto and trying to live by it - `LEARN AND HELP OT
 ### Recursion
 1. [Factorial](Recursion/Factorial)
 2. [Nth Factorial](Recursion/Nth-Factorial)
+3. [Euclidean GCD](Recursion/EuclideanGCD)
