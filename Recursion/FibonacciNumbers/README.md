@@ -29,8 +29,8 @@ return s ([0,1,1,2,3])              |   |
 |                                   |   if (n (4) === 2) --> False
 |                                   |  else  
 |                                   |  s = fibonacciNumbers(n(4) - 1) = fibonacciNumbers(3)
-|                                   |  (s=[0,1,1])                          ^  |
-|                                   |  s.push(s[2](1) + s[1](1) = 2)        |  |
+|                                   |  (s=[0,1,1])                           ^  |
+|                                   |  s.push(s[2](1) + s[1](1) = 2)         |  |
 |                                    --* return s ([0,1,1,2])                |  V
 |                                                                            |   if (n (3) === 1) --> False
 |                                                                            |   else 
