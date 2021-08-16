@@ -47,93 +47,93 @@ class LinkedList {
         return this;
     }
 
-    delete(value) {
-        if (!this.head) {
-            return null;
-        }
+    // delete(value) {
+    //     if (!this.head) {
+    //         return null;
+    //     }
 
-        let deletedNode = null;
+    //     let deletedNode = null;
 
-        // If the head must be deleted then make next node that is different
-        // from the head to be a new head.
-        while (this.head && this.compare.equal(this.head.value, value)) {
-            deletedNode = this.head;
-            this.head = this.head.next;
-        }
+    //     // If the head must be deleted then make next node that is different
+    //     // from the head to be a new head.
+    //     while (this.head && this.compare.equal(this.head.value, value)) {
+    //         deletedNode = this.head;
+    //         this.head = this.head.next;
+    //     }
 
-        let currentNode = this.head;
+    //     let currentNode = this.head;
 
-        if (currentNode !== null) {
-            // If next node must be deleted then make next node to be a next next one.
-            while (currentNode.next) {
-                if (this.compare.equal(currentNode.next.value, value)) {
-                    deletedNode = currentNode.next;
-                    currentNode.next = currentNode.next.next;
-                } else {
-                    currentNode = currentNode.next;
-                }
-            }
-        }
+    //     if (currentNode !== null) {
+    //         // If next node must be deleted then make next node to be a next next one.
+    //         while (currentNode.next) {
+    //             if (this.compare.equal(currentNode.next.value, value)) {
+    //                 deletedNode = currentNode.next;
+    //                 currentNode.next = currentNode.next.next;
+    //             } else {
+    //                 currentNode = currentNode.next;
+    //             }
+    //         }
+    //     }
 
-        // Check if tail must be deleted.
-        if (this.compare.equal(this.tail.value, value)) {
-            this.tail = currentNode;
-        }
+    //     // Check if tail must be deleted.
+    //     if (this.compare.equal(this.tail.value, value)) {
+    //         this.tail = currentNode;
+    //     }
 
-        return deletedNode;
-    }
+    //     return deletedNode;
+    // }
 
-    find({ value = undefined, callback = undefined }) {
-        if (!this.head) {
-            return null;
-        }
+    // find({ value = undefined, callback = undefined }) {
+    //     if (!this.head) {
+    //         return null;
+    //     }
 
-        let currentNode = this.head;
+    //     let currentNode = this.head;
 
-        while (currentNode) {
-            // If callback is specified then try to find node by callback.
-            if (callback && callback(currentNode.value)) {
-                return currentNode;
-            }
+    //     while (currentNode) {
+    //         // If callback is specified then try to find node by callback.
+    //         if (callback && callback(currentNode.value)) {
+    //             return currentNode;
+    //         }
 
-            // If value is specified then try to compare by value..
-            if (value !== undefined && this.compare.equal(currentNode.value, value)) {
-                return currentNode;
-            }
+    //         // If value is specified then try to compare by value..
+    //         if (value !== undefined && this.compare.equal(currentNode.value, value)) {
+    //             return currentNode;
+    //         }
 
-            currentNode = currentNode.next;
-        }
+    //         currentNode = currentNode.next;
+    //     }
 
-        return null;
-    }
+    //     return null;
+    // }
 
-    deleteTail() {
-        const deletedTail = this.tail;
+    // deleteTail() {
+    //     const deletedTail = this.tail;
 
-        if (this.head === this.tail) {
-            // There is only one node in linked list.
-            this.head = null;
-            this.tail = null;
+    //     if (this.head === this.tail) {
+    //         // There is only one node in linked list.
+    //         this.head = null;
+    //         this.tail = null;
 
-            return deletedTail;
-        }
+    //         return deletedTail;
+    //     }
 
-        // If there are many nodes in linked list...
+    //     // If there are many nodes in linked list...
 
-        // Rewind to the last node and delete "next" link for the node before the last one.
-        let currentNode = this.head;
-        while (currentNode.next) {
-            if (!currentNode.next.next) {
-                currentNode.next = null;
-            } else {
-                currentNode = currentNode.next;
-            }
-        }
+    //     // Rewind to the last node and delete "next" link for the node before the last one.
+    //     let currentNode = this.head;
+    //     while (currentNode.next) {
+    //         if (!currentNode.next.next) {
+    //             currentNode.next = null;
+    //         } else {
+    //             currentNode = currentNode.next;
+    //         }
+    //     }
 
-        this.tail = currentNode;
+    //     this.tail = currentNode;
 
-        return deletedTail;
-    }
+    //     return deletedTail;
+    // }
 
     deleteHead() {
         if (!this.head) {
@@ -212,7 +212,14 @@ class LinkedList {
 
 const linklist = new LinkedList()
 linklist.append(2)
+linklist.append(3)
+linklist.append(4)
 linklist.append(5)
-linklist.append(8)
-linklist.append(12)
+console.log(linklist.toString());
+linklist.prepend(2)
+linklist.prepend(1)
+console.log(linklist.toString());
+linklist.reverse()
+console.log(linklist.toString());
+linklist.deleteHead()
 console.log(linklist.toString());
