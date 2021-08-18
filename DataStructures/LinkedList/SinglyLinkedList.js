@@ -107,33 +107,33 @@ class LinkedList {
     //     return null;
     // }
 
-    // deleteTail() {
-    //     const deletedTail = this.tail;
+    deleteTail() {
+        const deletedTail = this.tail;
 
-    //     if (this.head === this.tail) {
-    //         // There is only one node in linked list.
-    //         this.head = null;
-    //         this.tail = null;
+        if (this.head === this.tail) {
+            // There is only one node in linked list.
+            this.head = null;
+            this.tail = null;
 
-    //         return deletedTail;
-    //     }
+            return deletedTail;
+        }
 
-    //     // If there are many nodes in linked list...
+        // If there are many nodes in linked list...
 
-    //     // Rewind to the last node and delete "next" link for the node before the last one.
-    //     let currentNode = this.head;
-    //     while (currentNode.next) {
-    //         if (!currentNode.next.next) {
-    //             currentNode.next = null;
-    //         } else {
-    //             currentNode = currentNode.next;
-    //         }
-    //     }
+        // Rewind to the last node and delete "next" link for the node before the last one.
+        let currentNode = this.head;
+        while (currentNode.next) {
+            if (!currentNode.next.next) {
+                currentNode.next = null;
+            } else {
+                currentNode = currentNode.next;
+            }
+        }
 
-    //     this.tail = currentNode;
+        this.tail = currentNode;
 
-    //     return deletedTail;
-    // }
+        return deletedTail;
+    }
 
     deleteHead() {
         if (!this.head) {
@@ -219,7 +219,10 @@ console.log(linklist.toString());
 linklist.prepend(2)
 linklist.prepend(1)
 console.log(linklist.toString());
-linklist.reverse()
+console.log(`Deleted head: ${linklist.deleteHead()}`);
 console.log(linklist.toString());
-linklist.deleteHead()
+console.log(`Deleted Tail: ${linklist.deleteTail()}`);
+console.log(linklist.toString());
+linklist.reverse()
+console.log("Revered List:");
 console.log(linklist.toString());
