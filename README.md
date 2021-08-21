@@ -10,6 +10,10 @@ Have also come up with a new Motto and trying to live by it - `LEARN AND HELP OT
 
 ***This is a Work in progress repo. Will be adding new solutions frequently.***
 
+## Data Structures
+1. [Linked List](DataStructures/LinkedList)
+2. [Stack](DataStructures/Stack)
+
 ## Algorithms 
 
 ### Search
