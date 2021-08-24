@@ -13,6 +13,7 @@ Have also come up with a new Motto and trying to live by it - `LEARN AND HELP OT
 ## Data Structures
 1. [Linked List](DataStructures/LinkedList)
 2. [Stack](DataStructures/Stack)
+3. [Queue](DataStructures/Queue)
 
 ## Algorithms 
 
