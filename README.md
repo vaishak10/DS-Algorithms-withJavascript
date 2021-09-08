@@ -39,4 +39,5 @@ Have also come up with a new Motto and trying to live by it - `LEARN AND HELP OT
 2. [Climbing Stairs](DynamicProgramming/Climbing-Stairs) - **leetcode**
 3. [Buy Sell Stocks](DynamicProgramming/Buy-Sell-Stocks) - **leetcode**
 4. [Maximum Subarrays](DynamicProgramming/Maximum-Subarrays) - **leetcode**
-5. [Longest Common Subsequence](DynamicProgramming/Longest-Common-Subsequence)
+5. [House Robber](DynamicProgramming/House-Robber) - **leetcode**
+6. [Longest Common Subsequence](DynamicProgramming/Longest-Common-Subsequence)
